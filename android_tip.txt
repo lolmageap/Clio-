@@ -55,6 +55,12 @@ onPause()
 onStop()
 onDestroy() -- 딱 한번만 호출
 
+1 레이아웃(xml)에서 버튼 생성
+2 버튼 객체가 생성된걸 액티비티에서 알 수 있게 id를 부여
+3 액티비티에서 버튼 객체를 탐을 변수를 선언
+4 findViewByID(R.id.xx)
+5 이벤트 감지자 생성
+
 End
 
 
