@@ -70,6 +70,38 @@ onDestroy() -- 딱 한번만 호출
 4 findViewByID(R.id.xx)
 5 이벤트 감지자 생성
 
+------------------------------------------------------------------
+
+4일차
+
+visibility 속성
+default : visible
+invisible : 요소는 가리지만 공간은 차지함
+gone : 요소를 가리고 공간도 차지하지 않음
+
+객체를 액티비티에서 검색하는 세가지 방법
+1. id로 비교하기 .getid()
+2. view를 자식 클래스로 캐스팅 하기
+3. 인스턴스가 같기 때문에 그냥 비교해버리기
+
+메뉴 만들기
+1. 액션바에 메뉴버튼 만들어서 메뉴 팝업 띄우기
+*폴더이름을 무조건 menu로 만들어야 한다.
+menu resource file 만들기
+<item> 속성 만들기
+
+액티비티에서 팝업메뉴 붙히기
+onCreateOptionMenu 메서드 오버라이딩
+getMenuInflater().inflate(R.menu.xx.xml)
+
+onOptionItemSelected(MenuItem item){
+	
+}
+
+btn.setOnClickListener
+
+
+
 
 End
 
